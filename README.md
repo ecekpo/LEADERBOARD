@@ -1,15 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+  LEADERBOARD
 
 > Description the project.
-
+This is a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. It develop as a first working version of the app following a wireframe, but without styling - and it is only focus on functionality. 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
+- Webpack
 
 ## Live Demo (if available)
 
@@ -42,15 +44,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ecekpo](https://github.com/ecekpo)
+- Twitter: [@ecekpo](https://twitter.com/ecekpo)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ecekpo)
 
 ## 🤝 Contributing
 
