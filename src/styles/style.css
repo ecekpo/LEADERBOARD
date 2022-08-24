@@ -1,52 +1,116 @@
-* {
-  margin: 0;
+*{
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-h1 {
-  margin: 50px 100px;
+body{
+   font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+  margin: auto 10%;
+  background: linear-gradient(90deg, #b88009 0%, #22C1C3 100%);
+  padding: 0 2%;
+}
+
+#game-board{
+  display: flex;
+  gap: 30%;
+  margin-top: 30px;
+}
+h1{
+  text-align: center;
+  margin-top: 50px;
   font-size: 50px;
+  font-weight: bolder;
+  color: rgb(235, 235, 235);
+  padding-top: 50px;
 }
 
-#wrapper {
-  margin-top: 100px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.recent-scores {
-  display: flex;
-  justify-content: space-between;
-  min-width: 30vh;
-}
-
-::placeholder {
-  color: rgb(206, 204, 204);
-  font-size: 10px;
-}
-
-.add-input {
+.add-scores{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 2rem;
+}
+ #submit-btn{
+  border: none;
+  padding: 10px 5px;
+  margin: 10px;
+  border-radius: 3px;
+  color: #e0e9e9;
+  background: #af9252;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.scores {
-  border: 1px solid black;
+.add-input{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+input{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+::placeholder{
+  color: rgb(200, 196, 196);
+  font-size: 10px;
+  text-align: center;
+}
+
+.title{
+  display: flex;
+  gap: 1rem;
+}
+
+.refresh{
+  border: none;
+  padding: 5px 20px;
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+.scores{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 0 12px;
   margin-top: 20px;
+  width: 150%;
 }
 
-.scores li {
+.scores li{
   list-style: none;
-  padding: 5px;
+  border-bottom: 1px solid gray;
+  padding: 5px 0;
+  color: whitesmoke
 }
 
-.scores li:nth-child(even) {
-  background: rgb(207, 207, 207);
+.scores li:nth-child(even){
+  background-color: #af9252;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
-.submit-button {
-  align-self: end;
-  width: 80px;
+@media screen and (max-width:798px){
+  #game-board{
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+  .scores{
+    width: 100%;
+  }
+  input{
+    margin-left: 80px;
+  }
+
+  .title{
+    gap: 2rem;
+  }
 }

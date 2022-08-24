@@ -4,36 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Leaderboard</title>
 </head>
 <body>
-	<section class="container">		
+	
+
+    <section class="container">
+	
 			<h1>Leaderboard</h1>
-		<div id="board">
-			<div class="display-scores">
-				<div class="recent-scores">
-					<h2>Recent scores</h2>
-                    <button class="refresh" type="button">Refresh</button>
+
+		<div id="game-board">
+			<div class="add-scores">
+				<div class="add-heading">
+					<h2>Add your Score</h2>
 				</div>
+				<form class="add-input">
+					<div>
+						<label for="name"></label>
+					<input required type="text" id="name" name="name" placeholder="Your Name">
+					<label for="score"></label>
+					<input required type="number" id="score" name="score" placeholder="Your Scores" >
+					</div>
+					<div>
+						<button type="submit" id="submit-btn">Submit</button>
+					</div>
+					
+				</form>
+				
+			</div>
+			<div id="recent-scores">
+				<div class="title">
+					<h2>Recent Scores</h2>
+					<button class="refresh" type="button">Refresh</button>
+				</div>					
+				
 				<ul class="scores">
-                   
 				</ul>
 				
 			</div>
-			<div class="add-scores">
-				<div class="heading">
-					<h2>Add your score</h2>
-				</div>
-				<form class="input-section">
-					<label for="name"></label>
-					<input required type="text" id="name" name="name" placeholder="Your name">
-					<label for="score"></label>
-					<input required type="number" id="score" name="score" placeholder="Your score" >
-					<button type="submit" class="submit-button">Submit</button>
-				</form>
-			</div>
 		</div>
 	</section>
-	<script src="index.js"></script>
+	
+	<script src="./index.js"></script>
 </body>
 </html>
