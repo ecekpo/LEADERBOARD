@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Leaderboard</title>
-</head>
-<body>
-	
-
+  </head>
+  <body>
     <section class="container">
-	
-			<h1>Leaderboard</h1>
+      <h1>Leaderboard</h1>
 
-		<div id="game-board">
-			<div class="add-scores">
-				<div class="add-heading">
-					<h2>Add your Score</h2>
-				</div>
-				<form class="add-input">
-					<div>
-						<label for="name"></label>
-					<input required type="text" id="name" name="name" placeholder="Your Name">
-					<label for="score"></label>
-					<input required type="number" id="score" name="score" placeholder="Your Scores" >
-					</div>
-					<div>
-						<button type="submit" id="submit-btn">Submit</button>
-					</div>
-					
-				</form>
-				
-			</div>
-			<div id="recent-scores">
-				<div class="title">
-					<h2>Recent Scores</h2>
-					<button class="refresh" type="button">Refresh</button>
-				</div>					
-				
-				<ul class="scores">
-				</ul>
-				
-			</div>
-		</div>
-	</section>
-	
-	<script src="./index.js"></script>
-</body>
+      <div id="game-board">
+        <div class="add-scores">
+          <div class="add-heading">
+          
+          </div>
+
+          <div id="recent-scores">
+            <div class="title">
+              <h2>Recent Scores</h2>
+              <button class="refresh" type="button">Refresh</button>
+            </div>
+
+            <ul class="scores"></ul>
+          </div>
+        </div>
+
+        <form class="score-form">
+			<h2>Add your Score</h2>
+          <div class="input">
+            <label for="name"></label>
+            <input
+              required
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+            />
+            <label for="score"></label>
+            <input
+              required
+              type="number"
+              id="score"
+              name="score"
+              placeholder="Your Scores"
+            />
+          </div>
+          <div>
+            <button type="submit" id="submit-btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
 </html>

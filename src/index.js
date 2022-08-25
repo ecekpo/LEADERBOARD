@@ -1,13 +1,8 @@
-import './styles/style.css'
+import style from './styles/style.css'
+import refreshScoreBoard from "./modules/gameboard";
 
-import {  refreshScore } from './modules/service.js';
+const refreshBtn = document.querySelector('.refresh');
 
-
-const refresh = document.querySelector('.refresh')
-
-
-refresh.addEventListener('click', ()=>{
-  refreshScore()
-
-})
-
+refreshBtn.addEventListener('click', () => {
+  refreshScoreBoard();
+});

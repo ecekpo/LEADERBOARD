@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './index.js',
+  entry: './src/index.js',
   devServer: {
     static: './dist',
   },
@@ -28,3 +28,4 @@ module.exports = {
     runtimeChunk: 'single',
   },
 };
+
