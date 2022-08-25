@@ -1,10 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-  LEADERBOARD
-
-> Description the project.
-This is a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. It develop as a first working version of the app following a wireframe, but without styling - and it is only focus on functionality. 
+# Leaderboard
+> This web application is a type of a scoreboard showing the names and current scores of the leading competitors in any field which is using API's to get and set data.
 
 ## Built With
 
@@ -17,40 +14,29 @@ This is a JavaScript project for the Leaderboard list app, using webpack and ES6
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
-To get a local copy up and running steps.
+Run the following commands to clone and run it.
 
-Setup If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+### To clone the repository
 
-Download the ZIP from this location, or run the following git command to clone the files to your machine:
+'git clone https://github.com/ecekpo/LEADERBOARD.git'
 
-git clone https://github.com/ecekpo/LEADERBOARD.git
+### To enter Directory
 
-Once the files are on your machine, open the Leaderboard folder in Visual Studio Code, and follow the steps in Installation & Set Up 🛠 Installation & Set Up Install Node Modules
+`cd Leaderboard`
 
-npm install Start the development server
+### To Install Packages
 
-npm start
+`npm install`
 
-Open http://localhost:8080 to view it in the browser.
+### To run project on local server
 
-🚀 Building and Running for Production Generate a full static production build
+`npm start`
 
-### Prerequisites
+### To open project with vs code 
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+`code .`
 
 ## Authors
 
@@ -77,7 +63,3 @@ Give a ⭐️ if you like this project!
 - etc
 
 ## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
