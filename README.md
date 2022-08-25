@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-  LEADERBOARD
+# LEADERBOARD
 
-> Description the project.
-This is a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. It develop as a first working version of the app following a wireframe, but without styling - and it is only focus on functionality. 
+This is a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. It develop as a first working version of the app following a wireframe, but without styling - and it is only focus on functionality.
 
 ## Built With
 
@@ -16,7 +14,6 @@ This is a JavaScript project for the Leaderboard list app, using webpack and ES6
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 
@@ -50,8 +47,6 @@ Open http://localhost:8080 to view it in the browser.
 
 ### Deployment
 
-
-
 ## Authors
 
 👤 **Author1**
@@ -78,6 +73,12 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+Copyright 2022, [EMEM EKPO]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this Leaderboard and associated documentation files, to deal in the Leaderboard without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Leaderboard, and to permit persons to whom the Leaderboard is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Leaderboard.
+
+THE LEADERBOARD IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE LEADERBOARD OR THE USE OR OTHER DEALINGS IN THE LEADERBOARD.
