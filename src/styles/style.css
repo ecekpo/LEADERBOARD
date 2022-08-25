@@ -1,53 +1,57 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-h1{
-    margin: 50px 100px;
-    font-size: 50px;
-}
-#game-board{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-::placeholder{
-    color: rgb(206, 204, 204);
-    font-size: 10px
+h1 {
+  margin: 50px 100px;
+  font-size: 50px;
 }
 
-.title{
-    display: flex;
-    gap: 2rem
+#game-board {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.input{
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
+::placeholder {
+  color: rgb(206, 204, 204);
+  font-size: 10px;
 }
 
-.scores{
-    border: 1px solid black;  
-    margin-top: 20px;
-}
-.scores li{
-    list-style: none;
-    padding: 5px;  
-}
-.scores li:nth-child(even){
-    background: rgb(207, 207, 207);
+.title {
+  display: flex;
+  gap: 2rem;
 }
 
-button{
-    align-self: end;
-    width: 80px;
-    margin-top: 5px;
-    background: gray;
-    border:none;
-    border-radius: 1px;
-    padding: 2px 5px;
-    color: white;
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.scores {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.scores li {
+  list-style: none;
+  padding: 5px;
+}
+
+.scores li:nth-child(even) {
+  background: rgb(207, 207, 207);
+}
+
+button {
+  align-self: end;
+  width: 80px;
+  margin-top: 5px;
+  background: gray;
+  border: none;
+  border-radius: 1px;
+  padding: 2px 5px;
+  color: white;
 }
