@@ -3,6 +3,8 @@
 # Leaderboard
 > This web application is a type of a scoreboard showing the names and current scores of the leading competitors in any field which is using API's to get and set data.
 
+![Leaderboard Screenshot ](https://user-images.githubusercontent.com/101729024/187686175-edd16ccb-5c84-48bd-99f0-afd8e6f7aa71.png)
+
 ## Built With
 
 - HTML
