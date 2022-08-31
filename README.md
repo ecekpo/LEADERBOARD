@@ -14,7 +14,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link]([https://livedemo.com](https://ecekpo.github.io/LEADERBOARD/))
+[Live Demo Link](https://ecekpo.github.io/LEADERBOARD/)
 
 ## Getting Started
 
