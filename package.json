@@ -1,27 +1,31 @@
 {
-  "name": "webpack-template",
+  "name": "leaderboard",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "private": true,
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
+    "start": "webpack serve --open",
     "build": "webpack",
-    "start": "webpack serve --open"
+    "deploy": "gh-pages -d dist"
+
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ibizugbe/Webpack-template.git"
+    "url": "git+https://github.com/ecekpo/LEADERBOARD.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ibizugbe/Webpack-template/issues"
+    "url": "https://github.com/ecekpo/LEADERBOARD/issues"
   },
-  "homepage": "https://github.com/Ibizugbe/Webpack-template#readme",
+  "homepage": "https://github.com/ecekpo/LEADERBOARD.git#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.73.0",
@@ -33,4 +37,3 @@
   },
   "main": "webpack.config.js"
 }
-
