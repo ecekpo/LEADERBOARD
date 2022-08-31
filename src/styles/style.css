@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: beige;
+  background-color: rgb(183, 226, 162);
 }
 
 h1 {
   margin: 50px 100px;
   font-size: 50px;
+  text-align: center;
+  font-weight: 800;
 }
 
 #game-board {
